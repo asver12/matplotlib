@@ -250,6 +250,7 @@ class ScalarMappable(object):
 
         """
         # First check for special case, image input:
+        print(x)
         try:
             if x.ndim == 3:
                 if x.shape[2] == 3:
